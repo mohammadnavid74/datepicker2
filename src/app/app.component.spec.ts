@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'date-picker-jalali-range' title`, () => {
+  it(`should have the 'car-shop' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('date-picker-jalali-range');
+    expect(app.title).toEqual('car-shop');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, date-picker-jalali-range');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, car-shop');
   });
 });

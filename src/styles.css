@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-datepicker-content-container {
+  position: absolute !important;
+  top: 23px !important;
+  border-radius: 10px;
+  right: -35px;
+  z-index: 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+}
+.range-highlight .mat-calendar-body-cell-content {
+  border-radius: 50%;
+}
+
+.mat-mdc-form-field-subscript-wrapper {
+  display: none !important;
+}
+::before mdc-line-ripple--deactivating {
+  display: none !important;
+}
+.mdc-line-ripple--deactivating:before {
+  display: none !important;
+}
+.mdc-line-ripple--deactivating:after {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-mdc-text-field-wrapper {
+  background: none !important;
+}
+
+.mat-mdc-text-field-wrapper:after {
+  background: none !important;
+}
+
+input {
+  border: none !important;
+}
