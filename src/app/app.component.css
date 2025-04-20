@@ -1,21 +1,41 @@
-/* .custom-form-field {
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  padding: 12px;
-}
-
-.custom-date-input {
-  padding: 10px 12px;
-  font-size: 14px;
-  border-radius: 8px;
-  background-color: #f9fafb;
-  border: 1px solid #e5e7eb;
-  transition: border 0.3s;
-}
-
-.custom-date-input:focus {
-  border-color: #3f51b5;
+input {
   outline: none;
-  background-color: #fff;
-} */
+}
+
+.range-highlight .mat-calendar-body-cell-content {
+  border-radius: 50%;
+}
+
+.mat-mdc-form-field-subscript-wrapper {
+  display: none !important;
+}
+::before mdc-line-ripple--deactivating {
+  display: none !important;
+}
+.mdc-line-ripple--deactivating:before {
+  display: none !important;
+}
+.mdc-line-ripple--deactivating:after {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-mdc-text-field-wrapper {
+  background: none !important;
+}
+
+.mat-mdc-text-field-wrapper:after {
+  background: none !important;
+}
+
+input {
+  border: none !important;
+}
